@@ -106,6 +106,9 @@ public class GpsEmulator implements EntryPoint, ClickMapHandler {
       if (apiKey != null) {
          otherParameters.append("key=");
          otherParameters.append(apiKey);
+          otherParameters.append("map_ids=");
+          otherParameters.append("4383ed7bed557ec4");
+
       }
       GWT.log("LoadApi otherParameters: "+otherParameters.toString());
 
